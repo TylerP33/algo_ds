@@ -18,3 +18,6 @@ function findHighestPrimeFactor(number){
 }
 
 findHighestPrimeFactor(111)
+
+
+// NEEDS REFACTOR
