@@ -1,13 +1,17 @@
+var largest = 0;
 for(var i = 100; i < 999; i++){
 	for(var j = 100; j < 999; j++){
-		const final = i * j
+		var final = i * j
 			if (final === parseInt(final.toString().split('').reverse().join(''))){
-				if (final > 900000){
+				if (final > largest){
+					largest = final
 					console.log(final)
-				}
+			}
 		}
 	}
 }
+
+
 
 
 
