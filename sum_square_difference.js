@@ -9,11 +9,11 @@ function sumofSquares(n) {
 }
 
 function sumOfNatural(n) {
-	const secArr = []
+	const arr = []
 	for (var i = 0; i <= n; i++){
-		secArr.push(i);
+		arr.push(i);
 	}
-	let result = secArr.reduce((a, b) => a + b);
+	let result = arr.reduce((a, b) => a + b);
 
 	return Math.pow(result, 2)
 }
