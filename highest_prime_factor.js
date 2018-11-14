@@ -8,7 +8,7 @@ function findHighestPrimeFactor(number){
 			&& i % 6 !== 0 
 			&& i % 7 !== 0 
 			&& i % 8 !== 0 
-		&& i % 9 !== 0
+			&& i % 9 !== 0
 			) {
 			if (number % i == 0) {
 			console.log(i)
